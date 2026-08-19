@@ -2,13 +2,13 @@
 const About = () => {
   return (
     <main
-      className='relative min-h-screen overflow-hidden bg-zinc-900 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 py-30'
+      className='relative min-h-screen overflow-hidden bg-zinc-900 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20  py-7 md:py-10'
       id='about-us'>
       <div className='text-center lg:text-left'>
-        <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-400 border-blue-400 pb-5 border-b-2 w-fit mx-auto '>
+        <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-400 border-blue-400 pb-2.5 border-b-2 w-fit mx-auto '>
           About-Me
         </h1>
-        <p className='pt-2.5  text-white text-xs sm:text-sm md:text-base text-center'>
+        <p className='pt-2.5  text-white text-base sm:text-xl  text-center'>
           I am a third-year Pharmacy student at Beni-Suef University with a
           growing passion for learning and development. I have developed a
           strong interest in learning design and facilitation. My journey with
