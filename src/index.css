@@ -2,7 +2,7 @@
 
 @theme inline {
   --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
-  var(--delay, 0ms);
+    var(--delay, 0ms);
 
   @keyframes cell-ripple {
     0% {
@@ -14,5 +14,26 @@
     100% {
       opacity: 0.4;
     }
+  }
+}
+
+/* card animation */
+@media (max-width: 639px) {
+  .skills-track {
+    animation: skill-slide 12s ease-in-out infinite;
+  }
+
+  @keyframes skill-slide {
+    0%, 25%  { transform: translateX(0); }
+    33%, 58% { transform: translateX(calc(-100% - 1rem)); }
+    66%, 91% { transform: translateX(calc(-200% - 2rem)); }
+    100%     { transform: translateX(0); }
+  }
+}
+
+@media (min-width: 640px) {
+  .skills-track {
+    animation: none;
+    transform: none;
   }
 }
