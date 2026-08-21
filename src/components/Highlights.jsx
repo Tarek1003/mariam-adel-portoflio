@@ -10,7 +10,7 @@ const Highlights = () => {
       className='relative min-h-screen overflow-hidden bg-black px-4 py-7 sm:px-6 md:px-10 md:py-10 lg:px-16 xl:px-20'
       id='high-light'>
       <h1 className='mx-auto w-fit border-b-4 border-blue-400/40 pb-2.5 text-2xl font-bold text-gray-400 sm:text-3xl md:text-4xl lg:text-5xl'>
-        Learning in action
+        Training in action
       </h1>
       <div className='relative  w-full'>
         <img

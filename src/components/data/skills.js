@@ -6,11 +6,11 @@ import {
 
 export const skills = [
   {
-    title: "Learning & Training",
+    title: "Learning & Development",
     icon: FaChalkboardTeacher,
     skills: [
       "Training Needs Assessment (TNA)",
-      "Training Kit Development",
+      "Training Kit Development (PPT, PG, FG)",
       "Learning Content Development",
     ],
   },
@@ -20,8 +20,11 @@ export const skills = [
     skills: ["Project Coordination", "Project Planning", "Team Collaboration"],
   },
   {
-    title: "Tools & Technology",
+    title: "Tools ",
     icon: FaLaptopCode,
-    skills: ["Articulate Storyline", "PowerPoint", "Word & Excel"],
+    skills: [
+      "Microsoft Office Suite (PowerPoint, Word, Excel)",
+      "Articulate Storyline",
+    ],
   },
 ];
