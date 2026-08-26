@@ -5,7 +5,7 @@ const Reveal = ({ children, className = "" }) => {
     <motion.div
       initial={{ opacity: 0, y: -40 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.7, ease: "easeOut" }}
+      transition={{ duration: 1.2, ease: "easeOut" }}
       viewport={{ once: true }}
       className={className}>
       {children}

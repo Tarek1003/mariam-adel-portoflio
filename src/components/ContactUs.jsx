@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 const ContactUs = () => {
   return (
     <main
-      className=' h-120 md:h-80 overflow-hidden text-white  bg-black px-4 py-7 sm:px-6 md:px-10 md:py-10 lg:px-16 xl:px-20'
+      className=' h-fit  overflow-hidden text-white  bg-black px-4 py-7 sm:px-6 md:px-10 md:py-10 lg:px-16 xl:px-20'
       id='contact-us'>
       <h1 className=' w-fit border-b-4 border-blue-400/40 pb-2.5 text-xl font-bold text-white sm:text-3xl md:text-xl lg:text-2xl'>
         Let's get in touch
