@@ -5,7 +5,7 @@ import { RiArchive2Fill } from "react-icons/ri";
 import { FaPhone } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <div className='fixed bottom-6 left-0 right-0 z-50 flex justify-center px-4 pointer-events-none'>
+    <div className='fixed bottom-6 left-0 right-0 z-50 flex justify-center px-4 pointer-events-auto'>
       <div className=' flex items-center justify-around w-75 h-12 bg-black/80 backdrop-blur-md text-white border hover:border-blue-400 border-white/10 rounded-full transition-all duration-300 shadow shadow-gray-300'>
         <a
           href='#high-light'
